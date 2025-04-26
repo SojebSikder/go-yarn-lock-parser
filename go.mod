@@ -1,3 +1,3 @@
-module sojebsikder/yarn-lock
+module github.com/sojebsikder/go-yarn-lock-parser
 
-go 1.24.0
+go 1.24.1
