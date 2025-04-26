@@ -1,4 +1,4 @@
-package main
+package goyarnlockparser
 
 import (
 	"bufio"
@@ -102,6 +102,8 @@ func ParseYarnLock(filePath string) (map[string]YarnLockEntry, error) {
 	return packageData, nil
 }
 
+// Example usage of the ParseYarnLock function
+// This function is not part of the library but demonstrates how to use it.
 func main() {
 	packageData, err := ParseYarnLock("yarn.lock")
 	if err != nil {
